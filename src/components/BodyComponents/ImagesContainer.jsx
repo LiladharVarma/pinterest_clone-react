@@ -24,7 +24,7 @@ const  ImagesContainer = (props) => {
         console.log(result[0].urls.raw);
         setData(result);
       });
-  },[]);
+  });
 
   // function showImage(event) {
   //   //    console.log(event);
