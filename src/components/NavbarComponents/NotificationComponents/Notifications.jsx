@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { FaBell } from "react-icons/fa"; // Notification icon
 import { FaTimes } from "react-icons/fa";
 import NotificationPanel from "./NotificationPanel";
-import { click } from "@testing-library/user-event/dist/click";
+
 
 const Notifications = () => {
   const [clicked, setClicked] = useState(false);

@@ -4,8 +4,8 @@ import Card from "./Card";
 
 
 const  ImagesContainer = (props) => {
-  const [clicked, setClicked] = useState("");
-  const [isVisible, setVisible] = useState(false);
+  // const [clicked, setClicked] = useState("");
+  // const [isVisible, setVisible] = useState(false);
   const [data, setData] = useState([]);
 
 
@@ -24,7 +24,7 @@ const  ImagesContainer = (props) => {
         console.log(result[0].urls.raw);
         setData(result);
       });
-  }, []);
+  });
 
   // function showImage(event) {
   //   //    console.log(event);
@@ -59,7 +59,7 @@ const  ImagesContainer = (props) => {
         />
       ))}
 
-      {isVisible && (
+      {/* {isVisible && (
         <div className="pop-up">
           <img src={clicked} alt="Pop up Image" />
           <button
@@ -70,7 +70,7 @@ const  ImagesContainer = (props) => {
             Cross
           </button>
         </div>
-      )}
+      )} */}
 
     </div>
   );

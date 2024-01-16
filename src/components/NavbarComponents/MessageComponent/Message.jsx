@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { FaTimes, FaEnvelope } from "react-icons/fa"; // Message icon
 import { FaSearch } from "react-icons/fa";
 import { FaEdit } from 'react-icons/fa';
-import PersonAddIcon from '@material-ui/icons/PersonAdd';
+import PersonAddAlt1Icon from '@mui/icons-material/PersonAddAlt1';
 
 const Message = () => {
   const [clicked, setClicked] = useState(false);
@@ -40,7 +40,7 @@ const Message = () => {
               <div> <p>New Message</p></div>
             </div>
             <div className="message-field">
-              <div className="field-icon-message"><PersonAddIcon /></div>
+              <div className="field-icon-message"><PersonAddAlt1Icon /></div>
               <div> <p>Invite your friend</p></div>
             </div>
           </div>

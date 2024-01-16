@@ -22,7 +22,7 @@ const Card = (props)  => {
       }}
     >
       <div className="image-container">
-        <img src={props.url} alt="Images" />
+        <img src={props.url} alt="randoms" />
 
         {isOver && (
           <div className="image-icons">
