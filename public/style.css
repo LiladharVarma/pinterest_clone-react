@@ -395,6 +395,11 @@
       padding: 0.5rem; /* Adjust padding for better spacing */
       margin-top: 6rem; /* Adjust margin-top for better positioning */
     }
+
+    .explore-container{
+      position: absolute;
+      top: 241px;
+    }
   }
   
   .gallary img {
@@ -520,7 +525,7 @@
   
   .explore-container {
     position: absolute;
-    top: 241px;
+    top: 90px;
     width: 99vw;
   
     /* border: .1rem solid red; */
@@ -530,6 +535,13 @@
     flex-direction: column; */
     /* justify-content: center; */
     display: block;
+  }
+  @media screen and (max-width: 480px) {
+    
+    .explore-container{
+      position: absolute;
+      top: 241px;
+    }
   }
   
   .header {
