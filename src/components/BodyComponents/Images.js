@@ -3,22 +3,22 @@
 
 
 
-import img1 from "../images/img1.jpeg"
-import img2 from "../images/img2.jpeg"
-import img3 from "../images/img3.jpeg"
-import img4 from "../images/img4.jpeg"
-import img5 from "../images/img5.jpeg"
-import img6 from "../images/img6.jpeg"
-import img7 from "../images/img7.jpeg"
-import img8 from "../images/img8.jpeg"
-import img9 from "../images/img9.jpeg"
-import img10 from "../images/img10.jpeg"
-import img11 from "../images/img11.jpeg"
-import img12 from "../images/img12.jpeg"
-import img13 from "../images/img13.jpeg"
-import img14 from "../images/img14.jpeg"
-import img15 from "../images/img15.jpeg"
-import img16 from "../images/img16.jpeg"
+import img1 from "./images/img1.jpeg"
+import img2 from "./images/img2.jpeg"
+import img3 from "./images/img3.jpeg"
+import img4 from "./images/img4.jpeg"
+import img5 from "./images/img5.jpeg"
+import img6 from "./images/img6.jpeg"
+import img7 from "./images/img7.jpeg"
+import img8 from "./images/img8.jpeg"
+import img9 from "./images/img9.jpeg"
+import img10 from "./images/img10.jpeg"
+import img11 from "./images/img11.jpeg"
+import img12 from "./images/img12.jpeg"
+import img13 from "./images/img13.jpeg"
+import img14 from "./images/img14.jpeg"
+import img15 from "./images/img15.jpeg"
+import img16 from "./images/img16.jpeg"
 
 
 
